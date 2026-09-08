@@ -1,0 +1,10 @@
+{
+  "extends": "agents/tsconfig",
+  "compilerOptions": {
+    "types": ["@cloudflare/workers-types"],
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["src/**/*.ts"]
+}
